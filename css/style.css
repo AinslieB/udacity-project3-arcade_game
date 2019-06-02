@@ -1,0 +1,63 @@
+body {
+  text-align: center;
+}
+/*
+ * Styles for the Modal using HTML5 Dialog Element
+ */
+.dialog {
+  display: none; /* Hidden by default */
+  position: relative; top: 10px;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  transform: translate(-50%, -50%);
+  border-radius: 10px
+}
+
+.dialog-content {
+  text-align: center;
+  text-align: center;
+  background-color: #8cbef1;
+  box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
+  border-radius: 5px;
+  box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
+     }
+
+dialog[open] {
+  animation: appear .15s cubic-bezier(0, 1.8, 1, 1.8);
+}
+
+dialog::backdrop {
+  background: rgba(0,0,0,.25);
+  backdrop-filter: opacity(10%);
+}
+
+dialog .actions {
+  display: flex;
+  justify-content: space around;
+}
+
+.play-again-btn {
+  font-size: 1rem;
+  text-align: center;
+  float: center;
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+  height: 50px;
+  width: 150px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border-radius: 12px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #dcdcdc;
+}
+
+.play-again-btn:hover, .span:focus {
+  color: blue;
+  text-decoration: none;
+  cursor: pointer;
+}
