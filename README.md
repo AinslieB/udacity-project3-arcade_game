@@ -19,7 +19,7 @@ This project is based on the frogger concept, but the "frog" is a single human p
 ## How to Play
 The animation begins when the game loads. The canvas, player, and enemy are rendered. Six enemy bugs move at various speeds. The arrow keys control the movement of the player up, down. left, and right. The game is won when the player reaches the river. Collisions with the enemy causes the player to be returned to the bottom center of the canvas.
 
-<img src="images/frogger.jpg" "width= 300px">
+<img src="images/frogger.jpg" "width=300">
 
 When the player reaches the water, a modal is displayed and the player has the option to play again.
 
