@@ -1,7 +1,7 @@
 # Classic Arcade Game Based on Frogger: Udacity Project 3
-According to Wikipedia, Frogger is an arcade game created by Konami in 1981. The objective of the game is to guide your frogs to safety and not become roadkill.
+According to Wikipedia, Frogger is an arcade game created by Konami in 1981. The objective of the game is to guide your frogs to safety so they do not become roadkill.
 
-This project is based on the frogger concept, but the "frog" is a single human player and the cars are giant beetles. Although much more simple than the original game, this project is effective in teaching the basics of object-oriented coding.
+This project is based on the frogger concept, but the "frogs" are replaced by a single human player and the "cars" are giant beetles. Although much more simple than the original game, this project is effective in teaching the basics of object-oriented coding.
 
 ## First, Copy the Files from GitHub
 
@@ -17,7 +17,7 @@ This project is based on the frogger concept, but the "frog" is a single human p
 3. The files will be forked to your GitHub repository.
 
 ## How to Play
-The animation begins when the game loads. The canvas, player, and enemy are rendered. Six enemy bugs move at various speeds. The arrow keys control the movement of the player up, down. left, and right. The game is won when the player reaches the river. Collisions with the enemy causes the player to be returned to the bottom center of the canvas.
+The animation begins when the game loads. The canvas, player, and enemy are rendered. Six enemy bugs move at various speeds. The arrow keys control the movement of the player up, down, left, and right. The game is won when the player reaches the river. A collision with the enemy causes the player to be returned to the bottom center of the canvas.
 
 <img src="images/frogger.jpg">
 
@@ -29,5 +29,5 @@ This game uses the HTML5 dialog element to open a modal when the user has won th
 * Opera version 24 or later
 
 ## Languages and Resources Used
-* HTML, CSS, and JavaScript* 
+* HTML, CSS, and JavaScript
 * Starter code from Udacity
