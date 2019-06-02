@@ -3,7 +3,7 @@ According to Wikipedia, Frogger is an arcade game created by Konami in 1981. The
 
 This project is based on the frogger concept, but the "frog" is a single human player and the cars are giant beetles. Although much more simple than the original game, this project is effective in teaching the basics of object-oriented coding.
 
-## Copy the Files from GitHub
+## First, Copy the Files from GitHub
 
 ### Download the files from GitHub to your computer
 1. Click the green _Clone or download_ button on GitHub.
